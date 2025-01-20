@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Home</title>
-    </head>
-    <body class="">
-       <div class="container">
-        This is home page 
-       </div>
-    </body>
-</html>
+<x-layout>
+    <x-slot:heading>
+        Home
+    </x-slot:heading>
+    <div class="container">
+        <h1>
+            This is home page
+        </h1>
+    </div>
+</x-layout>

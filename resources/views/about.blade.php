@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
-</head>
-<body>
+<x-layout>
+    <x-slot:heading>
+        About
+    </x-slot:heading>
     <div class="container">
-        this is about page
+        <h1>This is about page</h1>
     </div>
-</body>
-</html>
+</x-layout>
